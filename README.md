@@ -2,6 +2,8 @@
 
 ブラウザだけで動くシンプルな TODO アプリです。インストールやビルドは必要ありません。
 
+公開版: https://dasan9426-ops.github.io/todo/
+
 ## 使い方
 
 `index.html` をブラウザ（Chrome / Edge など）で開くだけで使えます。
