@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>TODO アプリのテスト</title>
+  <style>
+    body { margin: 2rem; font-family: system-ui, sans-serif; line-height: 1.6; }
+    #summary { font-size: 1.1rem; font-weight: 700; }
+    .pass { color: #15803d; }
+    .fail { color: #b91c1c; }
+    .skip { color: #8a6100; }
+    .detail { margin: 0.2rem 0 0.6rem; color: #444; white-space: pre-wrap; font-size: 0.9rem; }
+    iframe { width: 100%; max-width: 680px; height: 480px; margin-top: 1rem; border: 1px solid #ccc; }
+  </style>
+</head>
+<body>
+  <h1>TODO アプリのテスト</h1>
+  <p id="summary">実行中…</p>
+  <ol id="results"></ol>
+  <iframe id="app-frame" title="テスト対象のアプリ"></iframe>
+
+  <script src="../js/todo-model.js"></script>
+  <script src="harness.js"></script>
+  <script src="model.test.js"></script>
+  <script src="app.test.js"></script>
+  <script>runTests();</script>
+</body>
+</html>
